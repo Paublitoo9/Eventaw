@@ -1,16 +1,13 @@
 ----------------------------------------------------------------
-Sat Jun 05 20:47:02 CEST 2021:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0179-dd7f-f830-0000074638c8 
-on database directory memory:/Users/rafa/IdeaProjects/eventaw/3545a30d-6c40-4190-953a-9fd176171966 with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
-Loaded from file:/Users/rafa/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+Tue Jun 08 12:29:23 CEST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0179-eb2b-72ae-000005e67298 
+on database directory memory:D:\Pablo\Ing Software\3er Curso\Segundo Cuatrimestre\TAW\eventaw\8fdc9a31-6e57-45d8-a47e-13691d66efc8 with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/C:/Users/Paublito9/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_111-b14
-user.dir=/Users/rafa/IdeaProjects/eventaw
-os.name=Mac OS X
-os.arch=x86_64
-os.version=10.16
+user.dir=D:\Pablo\Ing Software\3er Curso\Segundo Cuatrimestre\TAW\eventaw
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
-----------------------------------------------------------------
-Sat Jun 05 21:17:15 CEST 2021:
-Shutting down instance a816c00e-0179-dd7f-f830-0000074638c8 on database directory memory:/Users/rafa/IdeaProjects/eventaw/3545a30d-6c40-4190-953a-9fd176171966 with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
