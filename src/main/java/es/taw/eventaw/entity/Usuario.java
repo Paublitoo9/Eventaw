@@ -18,6 +18,7 @@ public class Usuario {
     private Collection<Usuarioevento> usuarioeventosById;
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID", nullable = false)
     public Integer getId() {
         return id;

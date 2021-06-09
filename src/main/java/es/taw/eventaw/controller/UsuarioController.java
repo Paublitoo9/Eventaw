@@ -15,7 +15,6 @@ import javax.servlet.http.HttpSession;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
-import java.util.Optional;
 
 @Controller
 public class UsuarioController {
@@ -43,7 +42,8 @@ public class UsuarioController {
 
     @PostMapping("/usuario/login")
     public String doLogin(@ModelAttribute("usuario")Usuario inputData, Model model, HttpSession session){
-        Usuario usuario = this.usuarioRepository.findByEmail(inputData.getCorreo());
+        Usuario usuario = this.usuarioRepository.findByEmail(inputData.getCorreo());//No entiendo por que no me funca, pero me lo devuelve null
+        //inputData.getCorreo() contiene el email como string y la query es super sencilla, así que no sé
         String jsp = "";
         String errorLog = "";
         List<Evento> eventos;

@@ -61,7 +61,7 @@
                     </div>
                     <div class="text-center p-t-8">
                         ¿No tienes cuenta?
-                        <a href="registroUsuario.jsp" class="txt2">
+                        <a href="/usuarioEvento/registrarFormulario" class="txt2">
                             REGÍSTRATE AQUÍ
                         </a>
                     </div>
